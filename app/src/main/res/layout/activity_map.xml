@@ -9,32 +9,23 @@
 
         <EditText android:layout_width="match_parent"
                   android:layout_height="wrap_content"
-                  android:hint="Input Node"
+                  android:hint="Input map"
                   android:layout_weight="1"
+                  android:id="@+id/edit_map"/>
 
-                  android:id="@+id/edit_node"/>
         <Button android:layout_width="match_parent"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text="Add Node"
-                android:onClick="InputNode"
+                android:text="put"
+                android:id="@+id/btn_put"
+
 
         />
-        <Button android:layout_width="match_parent"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
-                android:text="Del"
-                android:onClick="DelNode"/>
-        <Button android:layout_width="match_parent"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
-                android:text="TreeSet"
-                android:onClick="onTreeSet"/>
     </LinearLayout>
     <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
-    <TextView android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:textSize="20sp"
-              android:id="@+id/text_node"/>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textSize="20sp"
+                  android:id="@+id/text_map"/>
     </ScrollView>
 </LinearLayout>

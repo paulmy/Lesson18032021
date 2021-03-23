@@ -23,6 +23,7 @@
         <activity android:name=".RecActivity"/>
         <activity android:name=".FileSysActivity"/>
         <activity android:name=".BinaryTreeActivity"/>
+        <activity android:name=".AssocMassiv"/>
     </application>
 
 </manifest>

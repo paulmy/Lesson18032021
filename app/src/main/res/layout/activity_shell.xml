@@ -24,4 +24,9 @@
             android:onClick="openBinaryTree"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" android:id="@+id/button4"/>
+    <Button
+            android:text="Ассоциативный массив"
+            android:onClick="openMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/button5"/>
 </LinearLayout>

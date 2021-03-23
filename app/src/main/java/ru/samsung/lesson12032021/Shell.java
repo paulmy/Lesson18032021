@@ -31,4 +31,9 @@ public class Shell extends Activity {
         Intent intent = new Intent(Shell.this,BinaryTreeActivity.class);
         startActivity(intent);
     }
+
+    public void openMap(View view) {
+        Intent intent = new Intent(Shell.this,AssocMassiv.class);
+        startActivity(intent);
+    }
 }

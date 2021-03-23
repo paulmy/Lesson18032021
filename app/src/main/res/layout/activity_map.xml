@@ -21,6 +21,14 @@
 
 
         />
+        <Button android:layout_width="match_parent"
+                     android:layout_weight="1"
+                     android:layout_height="wrap_content"
+                     android:text="search"
+                     android:id="@+id/btn_search"
+
+
+    />
     </LinearLayout>
     <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
         <TextView android:layout_width="match_parent"
